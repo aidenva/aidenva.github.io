@@ -1,41 +1,121 @@
-lemanhlinh.com
-================================================================================
+<p align="center">
+  <a href="https://aidenva.github.io/">
+    <img alt="Gatsby" src="./src/static/logo_noalpha.svg" width="100" />
+    <h2 align="center">Anurag Hazra</h2>
+  </a>
+</p> 
+<p align="center">Creative FrontEnd Web Developer</p>
 
-Source code for my personal website. MIT Licensed. Contains a copy of my resume, 
-as well as some links to Github. :octocat:
+[![Build Status](https://travis-ci.org/aidenva/aidenva.github.io.svg?branch=develop)](https://travis-ci.org/aidenva/aidenva.github.io)
+![GitHub](https://img.shields.io/github/license/aidenva/aidenva.github.io)
+![Website](https://img.shields.io/website?down_message=offline&label=site&up_message=online&url=http%3A%2F%2Faidenva.github.io)
 
-## Forking Note
 
-If you fork this repo, please change the **form action** to an email address you own before trying it out. [Thaaaanks!](https://i.imgur.com/TpBVEjv.jpg)
+![Anurag Hazra Site Preview](./src/static/screenshot.png)
 
+Strained eyes? There's DarkMode too :p
+
+*NOTE: If you are using this site as a template for your own portfolio site, I would be very glad if you add a link to the original site with my name in footer*
+
+## :rocket: Quick start
+
+**Run the site locally**
+
+_NOTE: The default branch for this repo is `develop`, when you push or pull make sure you specify the correct branch_
+
+### Step 1: Clone The Repo
+
+Fork the repository. then clone the repo locally by doing -
+
+```bash
+git clone https://github.com/aidenva/aidenva.github.io.git
 ```
-<form action="https://formspree.io/your-email@here.com" method="POST" class="form-horizontal" role="form">
+
+### Step 2: Install Dependencies
+
+cd into the directory
+
+```bash
+cd aidenva.github.io
 ```
 
-Built using:
---------------------------------------------------------------------------------
-[HTML5](https://developers.google.com/web/)  
-[Bootstrap](http://getbootstrap.com/) for CSS  
-[jQuery](https://jquery.com/) for JS  
-[namecheap](https://www.namecheap.com/) for the awesome domain  
-[GitHub Pages](https://pages.github.com/) for hosting  
-[CloudFlare](https://www.cloudflare.com/) for the SSL cert and fancy green lock :lock:  
-[git](https://git-scm.com/) for source control
+install all the dependencies
+```bash
+npm install
+```
 
-Based on the
-[Creative Bootstrap theme](http://startbootstrap.com/template-overviews/creative/)
-from [Start Bootstrap](http://startbootstrap.com/).
-The theme is also MIT Licensed.
+### Step 3: Start Development Server
 
-View it here: [downing.io](https://downing.io/)
+Then start the development Server
+```
+npm run develop
+```
+After running the development server the site should be running on https://localhost:8000
 
-Check out some of my other webpages at 
-[github.com/JasonD94/](https://github.com/JasonD94/)
 
-##### NOTE:
+## :open_file_folder: What's inside?
 
-I have a custom domain connected to GitHub, so my GitHub Pages repositories 
-do not follow the usual GITHUB-USERNAME-HERE.github.io/REPOSITORY-NAME-HERE format. 
-Instead they follow a "downing.io/REPOSITORY-NAME-HERE" format. 
-If the domain fails for some reason, you can still access my site by going to 
-[https://jasond94.github.io](https://jasond94.github.io)
+A quick look at the folder structure of this project.
+
+    .
+    ├── content
+    │   ├───blog
+    │   ├───case-studies
+    │   └───json
+    ├── cypress
+    ├── plugins
+    └── src
+        ├───components
+        │   ├───About
+        │   ├───Blog
+        │   ├───common
+        │   ├───Concepts
+        │   ├───Contact
+        │   ├───CreativeCoding
+        │   ├───Home
+        │   ├───Layout
+        │   │   └───Navbar
+        │   ├───Lightbox
+        │   ├───Projects
+        │   └───Skills
+        ├───hooks
+        ├───pages
+        ├───static
+        │   └───images
+        ├───styles
+        └───templates
+
+
+## Tools Used
+
+1. Gatsby.js (of course)
+2. Styled Components for styling
+3. Cypress for E2E Testing
+4. Jest for Unit Testing
+5. TravisCI for CI/CD
+
+## :v: Contributing
+
+*NOTE: if you want to change the [blog content](./content) or fix any typo you can do that from github's ui without cloning the repo locally*
+
+After cloning & setting up the local project you can push the changes to your github fork and make a pull request.
+
+> You can also run the tests locally to see if everything works fine with
+
+### Running tests
+```bash
+npm run test
+npm run test:e2e
+```
+
+### Pushing the changes
+
+```bash
+git add .
+git commit -m "commit message"
+git push YOUR_REPO_URL develop
+```
+
+------
+
+Made with :heart: and Gatsbyjs
