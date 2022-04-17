@@ -3,7 +3,7 @@ layout: default
 ---
 
 <ul class="posts-container">
-{% for post in paginator.posts %}
+{% for post in site.posts %}
   <div class="posts-container">
     <h1>
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
@@ -21,13 +21,13 @@ layout: default
 {% endfor %}
 <!-- Pagination links -->
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
+  {% if site.next_page %}
+    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ site.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
   {% else %}
     <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
   {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
+  {% if site.previous_page %}
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ site.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
   {% else %}
     <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
   {% endif %}
