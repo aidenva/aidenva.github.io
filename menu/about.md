@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: About Me
+permalink: /about
 ---
 
 My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I am currently a senior at Yale University, graduating in May 2022.
@@ -32,4 +33,3 @@ Feel free to contact me through email at linh &lt; dot &gt; le &lt; at &gt; yale
 Like most people, I enjoy listening to music. [Here](https://www.last.fm/user/aidenva) is where you can find my music tendencies. I do not listen to a variety of music, but I have strong opinions of the music I listen to.
 
 At some point in the future I want to post about [College Admissions]({{ site.github.url }}{% post_url 2022-04-16-picking-college %}).
-
