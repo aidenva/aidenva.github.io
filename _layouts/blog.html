@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<ul class="posts-container">
 {% for post in paginator.posts %}
   <div class="posts-container">
     <h1>
@@ -31,3 +32,4 @@ layout: default
     <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
   {% endif %}
 </div>
+</ul>
