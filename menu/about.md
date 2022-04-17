@@ -31,5 +31,3 @@ Feel free to contact me through email at linh &lt; dot &gt; le &lt; at &gt; yale
 ## Miscellaneous
 
 Like most people, I enjoy listening to music. [Here](https://www.last.fm/user/aidenva) is where you can find my music tendencies. I do not listen to a variety of music, but I have strong opinions of the music I listen to.
-
-At some point in the future I want to post about [College Admissions]({{ site.github.url }}{% post_url 2022-04-16-picking-college %}).
