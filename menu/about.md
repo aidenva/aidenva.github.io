@@ -1,19 +1,21 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: About Me
 permalink: /about
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I am currently a senior at Yale University, graduating in May 2022.
 
-### Getting Started
+### Education
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+I went to high school in Vietnam, mostly at the [Hanoi Amsterdam High School for the Gifted](http://www.hn-ams.edu.vn/en), where I was member of the Hanoi English Team for two years. In 2018 I received admissions from [Yale University](https://yale.edu), and spent my most culturally enhancing education so far studying Chemical Engineering and Global Affairs. At some point in the future I will pursue doctoral studies in Materials Science, Chemical Engineering, or Chemistry, but I am currently spending my leave from academia working at a startup.
 
-### Example Content
+### Contact
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
+Feel free to contact me through email at linh /<dot> le /<at> yale /<dot> edu, or at my [Twitter](http://twitter.com/Manh_Linh_Le).
 
-### Questions?
+### Miscellaneous
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+At some point in the future I want to post about [College Admissions]({{ site.github.url }}{% post_url 2022-04-16-picking-college %}).
+
+I am casually obsessed with [Music]({{ site.github.url }}{% post_url })
