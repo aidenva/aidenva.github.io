@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
-.heavy-color a {
+a:hover {
   color: rgba(0,0,0,0);
   background: linear-gradient(to right, #00356b,#FF8405);
   background-size: 200% 200%;
@@ -46,10 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: black;
   text-decoration: underline;
-}
-
-a:hover {
-  color: $light-gray-color;
 }
 
 @keyframes rainbow { 

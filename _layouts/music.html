@@ -26,15 +26,6 @@ layout: default
         <h3>{{ post.date | date: '%Y' }}</h3>
       {% endif %}
     {% endunless %}
-    {% if post.date >= lastweek %}
-    <li itemscope>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-      <p>
-        {{ post.content | strip_html | truncate: 500 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
-        <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
-      </p>
-    </li>
-    {% else %}
     <li itemscope>
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
       <p>
@@ -42,6 +33,5 @@ layout: default
         <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
       </p>
     </li>
-    {% endif %}
   {% endfor %}
 </ul>
