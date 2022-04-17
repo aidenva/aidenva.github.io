@@ -38,7 +38,19 @@
 .header-title a {
   font-size: 2rem;
   text-decoration: none;
-  color: $body-color;
+  color: rbga(0,0,0,0);
+  background: linear-gradient(to right, #00356b,#FF8405);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+  transition: color .2s ease-in-out;
+}
+
+@keyframes rainbow { 
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
 }
 
 .header-subtitle {
@@ -59,7 +71,7 @@
 }
 
 .menu-content a {
-  color: $light-gray-color;
+  color: #00356b;
   font-size: 1rem;
   padding-right: 10px;
 }
@@ -69,7 +81,7 @@
 }
 
 .social-icons a {
-  color: $light-gray-color;
+  color: #FF8405;
   font-size: 1rem;
 }
 
