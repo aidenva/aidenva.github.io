@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: About Me
 permalink: /about
 ---
 
@@ -12,7 +12,7 @@ I went to high school in Vietnam, mostly at the [Hanoi Amsterdam High School for
 
 ### Contact
 
-Feel free to contact me through email at linh <code>&lt; dot &gt;</code> le <code>&lt; at &gt;</code> yale <code>&lt; dot &gt;</code> edu, or at my [Twitter](http://twitter.com/Manh_Linh_Le).
+Feel free to contact me through email at linh &lt; dot &gt; le &lt; at &gt; yale &lt; dot &gt; edu, or at my [Twitter](http://twitter.com/Manh_Linh_Le).
 
 ### Miscellaneous
 
