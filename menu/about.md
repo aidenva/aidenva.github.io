@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About Me
+title: Welcome to Lagrange!
 permalink: /about
 ---
 
-My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I am currently a senior at Yale University, graduating in May 2022.
+My full name is Le Manh Linh, and the order it goes in English should be Linh Manh Le. I am currently a senior at Yale University, graduating in May 2022.
 
 ### Education
 
@@ -17,5 +17,3 @@ Feel free to contact me through email at linh /<dot> le /<at> yale /<dot> edu, o
 ### Miscellaneous
 
 At some point in the future I want to post about [College Admissions]({{ site.github.url }}{% post_url 2022-04-16-picking-college %}).
-
-I am casually obsessed with [Music]({{ site.github.url }}{% post_url })
