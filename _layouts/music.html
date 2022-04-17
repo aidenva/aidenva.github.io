@@ -26,7 +26,7 @@ layout: default
         <h3>{{ post.date | date: '%Y' }}</h3>
       {% endif %}
     {% endunless %}
-    {% if date >= lastweek}
+    {% if post.date >= lastweek}
     <li itemscope>
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
       <p>
