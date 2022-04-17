@@ -41,11 +41,17 @@ a {
   -webkit-background-clip:text;
   transition: color .2s ease-in-out;
   border-bottom: none;
+  font-weight: bold;
+}
+
+h1, h2, h3 a {
+  color: black;
 }
 
 a:hover {
   text-decoration: underline;
   color: $dark-gray-color;
+  font-weight: bold;
 }
 
 @keyframes rainbow { 
