@@ -1,29 +1,26 @@
-# Site Build Settings
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-# Jekyll-paginate-v2 configuration
-#  pagination:
-#   enabled: true
-#   per_page: 5
-#   permalink: '/page/:num/'
-#   title: ':title - page :num of :max'
-#   limit: 0
-#   sort_field: 'date'
-#   sort_reverse: true
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-# jekyll-paginate configuration
-paginate:            5
+# Setup
+title:            Linh Le
+tagline:          'my personal website'
+description:      'Welcome to my personal website'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
-# Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+author:
+  name:           'Linh Le'
+  url:            https://twitter.com/Manh_Linh_Le
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Linh Le'
-description:	       'my personal website'
-author:              'Linh Le'
+paginate:         5
 
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/aidenva/aidenva.github.io
