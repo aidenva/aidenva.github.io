@@ -29,10 +29,10 @@ h1 a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $sans-serif-font-family;
-  color: $dark-gray-color;
+  color: black;
 }
 
-a {
+.heavy-color a {
   color: rgba(0,0,0,0);
   background: linear-gradient(to right, #00356b,#FF8405);
   background-size: 200% 200%;
@@ -41,20 +41,14 @@ a {
   -webkit-background-clip:text;
   transition: color .2s ease-in-out;
   border-bottom: none;
-  font-weight: bold;
 }
 
-h1, h2, h3 a {
+a {
   color: black;
+  text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: $dark-gray-color;
-  font-weight: bold;
-}
-
-h1, h2, h3 a:hover {
   color: $light-gray-color;
 }
 

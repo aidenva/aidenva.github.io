@@ -16,10 +16,10 @@ I am still currently finishing up my studies in New Haven, CT.
 <hr>
 <h2>Writing</h2>
 <ul class="posts-container">
-  {% for post in paginator.posts %}
+  {% for post in paginator.categories.journal %}
     <div class="posts-container">
       <h3>
-        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+        <a id="heavy-color" href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
       </h3>
       {% if post.image %}
         <div class="thumbnail-container">

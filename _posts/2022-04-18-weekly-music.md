@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "2022-04-18 Linh's Weekly Music"
+title: "220418 Weekly Music"
 author: "Linh Le"
-categories: journal
+categories: music
 tags: [documentation,music]
 ---
 
