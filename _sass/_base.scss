@@ -54,6 +54,10 @@ a:hover {
   font-weight: bold;
 }
 
+h1, h2, h3 a:hover {
+  color: $light-gray-color;
+}
+
 @keyframes rainbow { 
   0%{background-position:left}
   50%{background-position:right}

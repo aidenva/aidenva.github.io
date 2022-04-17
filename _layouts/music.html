@@ -16,7 +16,7 @@ layout: default
 </script>
 
 <ul class="posts-container">
-  {% for post in site.categories.weeklymusic %}
+  {% for post in site.categories.weeklymusic.posts %}
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
     {% else %}
