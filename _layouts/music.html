@@ -10,13 +10,38 @@ layout: default
   {{ content }}
 </article>
 
-<script type="text/javascript" src="assets/js/instafeed.min.js"></script>
-
-<div id="instafeed"></div>
-
-<script type="text/javascript">
-    var feed = new Instafeed({
-      accessToken: 'IGQVJYZAVFqYmZAqUWhlZAzhsY25Db2ZAGOUc0NmdWMkhLLVhLTnN1M3Fzc19EVjZAaUzcxcFJTM295OTEtMEprRnc3eno4dk4zOFRobVl5UExzNlp0eWpzUjVaNDNOVllCdUNLOE04NVdBVTdSRjQ3MVk4TwZDZD'
-    });
-    feed.run();
+<script>
+  todaydate = new Date();
+  nextweek = new Date(todaydate.getTime() + 7 * 24 * 60 * 60 * 1000);
 </script>
+
+<ul class="posts-container">
+  {% for post in site.categories.weeklymusic %}
+    {% unless post.next %}
+      <h3>{{ post.date | date: '%Y' }}</h3>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        <h3>{{ post.date | date: '%Y' }}</h3>
+      {% endif %}
+    {% endunless %}
+    {% if post.date >= nextweek %}
+    <li itemscope>
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+      <p>
+        {{ post.content | strip_html | truncate: 500 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
+        <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+      </p>
+    </li>
+    {% else %}
+    <li itemscope>
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+      <p>
+        {{ post.content | strip_html | truncate: 0 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
+        <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+      </p>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

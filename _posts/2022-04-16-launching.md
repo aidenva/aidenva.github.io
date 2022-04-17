@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Launch"
+title: "Website Launch"
 author: "Linh Le"
 categories: journal
 tags: [documentation,sample]

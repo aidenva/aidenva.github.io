@@ -18,9 +18,9 @@ I am still currently finishing up my studies in New Haven, CT.
 <ul class="posts-container">
   {% for post in paginator.posts %}
     <div class="posts-container">
-      <h1>
+      <h3>
         <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-      </h1>
+      </h3>
       {% if post.image %}
         <div class="thumbnail-container">
           <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
