@@ -7,9 +7,11 @@ layout: default
 </h1>
 <article>
   {{ content }}
+</article>
+<html>
   {% jekyllgram 9 %}
   <a href="{{ photo.permalink }}" title="{{ photo.caption }}" id="IG-{{ photo.id }}">
     <img src="{{ photo.media_url }}" title="{{ photo.caption }}" width="250" height="250" />
   </a>
   {% endjekyllgram %}
-</article>
+</html>
