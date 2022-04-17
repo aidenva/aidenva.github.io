@@ -8,10 +8,14 @@ layout: default
 <article>
   {{ content }}
 </article>
-<html>
-  {% jekyllgram 9 %}
-  <a href="{{ photo.permalink }}" title="{{ photo.caption }}" id="IG-{{ photo.id }}">
-    <img src="{{ photo.media_url }}" title="{{ photo.caption }}" width="250" height="250" />
-  </a>
-  {% endjekyllgram %}
-</html>
+
+<script type="text/javascript" src="assets/js/instafeed.min.js"></script>
+
+<div id="instafeed"></div>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+      accessToken: 'IGQVJVMzRUWHhpVmRRVE1VYjlSdi04dmFiTWY5ZAG5xbU1xdUJzbUNVMEFfMjBrVEg5LUZAFOWNTMmppOTQyVEp4MnRvNF94cTItc1ZApSjZANTlhRYWswS1lCaTRSbkJ2T2FEb255Q2lTcEhFMnRlR1d2bAZDZD'
+    });
+    feed.run();
+</script>
