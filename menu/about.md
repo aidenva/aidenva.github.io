@@ -10,7 +10,7 @@ My full name is Lê Mạnh Linh, and the order it goes in English should be Linh
 
 I spent my K-12 education in Vietnam, mostly at the [Hanoi Amsterdam High School for the Gifted](http://www.hn-ams.edu.vn/en), where I was member of the English 1 (Anh 1) class for my high school. I competed in the National English Academic Competition, organized Ngay Hoi Anh Tai 2015-2016 and Ams Got Talent IX, and was the president of our Model UN team. Check out my most favorite [MUN conference](https://ivmun.org/)!
 
-In 2018 I received admissions from [Yale University](https://yale.edu), and spent my most culturally enhancing education so far studying [Chemical Engineering](https://seas.yale.edu/departments/chemical-and-environmental-engineering) and [Global Affairs](https://jackson.yale.edu/academics/the-global-affairs-major/). I am also member of the [Energy Studies Multidisciplinary Academic Program](https://earth.yale.edu/energy-studies).
+In 2018 I received admissions from [Yale University](https://yale.edu), and spent my most culturally enhancing education so far studying [Chemical Engineering ABET](https://seas.yale.edu/departments/chemical-and-environmental-engineering) and [Global Affairs](https://jackson.yale.edu/academics/the-global-affairs-major/). I am also member of the [Energy Studies Multidisciplinary Academic Program](https://earth.yale.edu/energy-studies).
 
 Some of the most nourishing courses I have had at Yale, with somewhat an order of descending impact, include [Water Quality Control](https://courses.yale.edu/?details&srcdb=201903&crn=10995), [First-Year Organic Chemistry](https://courses.yale.edu/?details&srcdb=201803&crn=10629), [Approaches to International Development](https://courses.yale.edu/?details&srcdb=202001&crn=27688), [Transport Phenomena II](https://courses.yale.edu/?details&srcdb=202101&crn=21832), [Neural Networks and Learning Systems](https://courses.yale.edu/?details&srcdb=202103&crn=11124), and [Foucault and the Sexual Self](https://courses.yale.edu/?details&srcdb=202201&crn=23790).
 
@@ -28,7 +28,7 @@ In the past, I was involved with the [National Alliance for Water Innovation](ht
 
 ### [Zhong Group at Yale](https://zhongpolylab.yale.edu/)
 
-I am conducting research on stereospecific tacticity control in polymer synthesis using Lewis acids under the supervision of Professor Mingjiang Zhong at the Department of Chemical and Environmental Engineering at Yale.
+I am conducting research on tacticity control in polymer synthesis using Lewis acids under the supervision of Professor Mingjiang Zhong at the Department of Chemical and Environmental Engineering at Yale.
 
 In the past, I was involved with research on (1) multi-component graft block copolymer as basis for synthesis of polymer compatibilizer and (2) poly-TEMPO applications in energy storage devices.
 
