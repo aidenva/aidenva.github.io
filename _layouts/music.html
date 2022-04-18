@@ -16,17 +16,20 @@ layout: default
 </script>
 
 <ul class="posts-container">
+  {% assign timeframe = 604800 %}
   {% for post in site.categories.music %}
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
     {% else %}
+      {% assign post_in_seconds = post.last_modified_at | date: "%s" | plus: 0 %}
+      {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
       {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
         <h3>{{ post.date | date: '%Y' }}</h3>
       {% endif %}
     {% endunless %}
-    {% if post.date >= lastweek}
+    {% if post_in_seconds > recent_posts %}
     <li itemscope>
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
       <p>
@@ -38,7 +41,7 @@ layout: default
     <li itemscope>
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
       <p>
-        {{ post.content | strip_html | truncate: 0 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
+        <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
         <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
       </p>
     </li>
