@@ -10,4 +10,4 @@ Like most people, I enjoy listening to music. [Here](https://www.last.fm/user/ai
 <a class="last-fm-box" href="https://www.last.fm/user/aidenva"><img src="https://lastfm-recently-played.vercel.app/api?user=aidenva" height="50%" width="auto"/></a>
 </div>
 
-Every week I post about my top 12 favorite songs of the week. It ultimately does not really matter, but I am really interested in how my taste evolves with time. Why 12? When I was in middle school, my phone could only hold up to 12 songs in its SD card, so I became accustomed to switching out my most favorite songs to listen to every day. For continuity purposes, every week I will also just say something that was on my mind as I am writing my rankings.
+Every week I post about my top 12 favorite songs of the week. It ultimately does not really matter, but I am really interested in how my taste evolves with time. Why 12? When I was in middle school, my phone could only hold up to 12 songs in its SD card, so I became accustomed to switching out my most favorite songs to listen to every day. In every ranking, I will also just say something that was on my mind as I am making the most difficult of decisions.
