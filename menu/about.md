@@ -34,4 +34,4 @@ In the past, I was involved with research on (1) multi-component graft block cop
 
 ## Contact
 
-Feel free to contact me through email at linh &lt; dot &gt; le &lt; at &gt; yale &lt; dot &gt; edu, or at my [Twitter](http://twitter.com/Manh_Linh_Le).
+Feel free to contact me through email at linh &lt; dot &gt; le &lt; at &gt; yale &lt; dot &gt; edu, or at my [Twitter](http://twitter.com/Manh_Linh_Le). I am free to chat most of the times.
