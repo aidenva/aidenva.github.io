@@ -3,7 +3,7 @@ layout: post
 title: "Website Launch"
 author: "Linh Le"
 categories: journal
-tags: [documentation,sample]
+tags: [documentation]
 image: launching.jpg
 ---
 
