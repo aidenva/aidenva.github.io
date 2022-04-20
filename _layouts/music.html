@@ -10,10 +10,7 @@ layout: default
   {{ content }}
 </article>
 
-<script>
-  todaydate = new Date();
-  lastweek = new Date(todaydate.getTime() - 7 * 24 * 60 * 60 * 1000);
-</script>
+<hr>
 
 <ul class="posts-container">
   {% assign timeframe = 604800 %}
@@ -29,21 +26,19 @@ layout: default
         <h3>{{ post.date | date: '%Y' }}</h3>
       {% endif %}
     {% endunless %}
-    {% if post_in_seconds > recent_posts %}
     <li itemscope>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-      <p>
-        {{ post.content | strip_html }} <a href="{{ site.github.url }}{{ post.url }}"></a>
-        <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
-      </p>
+      {% if post_in_seconds > recent_posts %}
+        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+        <p>
+          {{ post.content | strip_html | truncate: 250 }} <a href="{{ site.github.url }}{{ post.url }}"></a>
+          <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+        </p>
+      {% else %}
+        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+        <p>
+          <span class="post-date"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+        </p>
+      {% endif %}
     </li>
-    {% else %}
-    <li itemscope>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-      <p>
-        <span class="post-date"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
-      </p>
-    </li>
-    {% endif %}    
   {% endfor %}
 </ul>
