@@ -9,6 +9,10 @@ body {
   line-height: 2rem;
 }
 
+body h1 {
+  line-height: 3rem;
+}
+
 @media (max-width: $elements-responsive-width) {
   body {
     font-size: 16px;
