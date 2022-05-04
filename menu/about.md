@@ -22,7 +22,7 @@ At some point in the future I will pursue doctoral studies in Materials Science,
 
 ### [Kim Group at Yale](http://www.yaleseas.com/jaehongkim/)
 
-I am conducting research on electrochemical nitrate reduction in wastewater treatment under the supervision of Dr. Reza Nazemi and Professor Jaehong Kim at the Department of Chemical and Environmental Engineering at Yale.
+I am conducting research on (1) electrochemical nitrate reduction in wastewater treatment and (2) in situ OH radical generation under the supervision of Dr. Reza Nazemi and Professor Jaehong Kim at the Department of Chemical and Environmental Engineering at Yale.
 
 In the past, I was involved with the [National Alliance for Water Innovation](https://www.nawihub.org/). [Here](https://pubs.acs.org/doi/10.1021/acsestengg.1c00282) is a research paper that I co-authored.
 
