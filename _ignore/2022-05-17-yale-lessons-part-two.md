@@ -30,6 +30,7 @@ My work buddy in this class was Brian Cho, who lived on the fifth floor of the C
 <h3>MATH 120: Multivariable Calculus</h3>
 
 <h3>International Relations Symposium at Yale</h3>
+Dropping class
 
 <h3>Vanderbilt C32</h3>
 
