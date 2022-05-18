@@ -6,7 +6,7 @@ categories: journal
 tags: [documentation,yale]
 
 ---
-The first part of these series took way longer than I thought. I owe it to my ability to pick up unimportant details really effectively; perhaps I should work more on the retention of actual valuable information. The saga continues after I had a very enlightening winter break, by which I mean I got to go home and experience just how much I missed being on campus within one short stint of returning to where I had lived exclusively.
+The first part of these series took way longer than I thought. I owe it to my ability to pick up unimportant details really effectively; perhaps I should work more on the retention of actual valuable information. The saga continues after I had a very enlightening winter break, by which I mean I got to go home and ascertain just how much I missed being on campus within one short stint of returning to where I had lived exclusively.
 
 <h3>ECON 121: Intermediate Microeconomics</h3>
 Another proverbial milestone of the Global Affairs major is the completion of Intermediate Microeconomics. At this point of Yale, I have pretty much settled on my preference of Global Affairs over Ethics, Politics, & Economics. Knowing that I will complete a STEM-heavy major (somewhat due to OPT extension policy), I looked to this other major as more of a practically oriented foray into social design questions I have long loved. Even with EP&E, I would still have to complete ECON 121. Picking this class seemed like a sensible choice.
