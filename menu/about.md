@@ -4,7 +4,7 @@ title: About Me
 permalink: /about
 ---
 
-My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I am currently a senior at Yale University, graduating in May 2022.
+My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I just graduated from Yale University at the end of May 2022.
 
 ## Education
 
@@ -16,7 +16,7 @@ Some of the most transformative courses I have had at Yale, with somewhat an ord
 
 At Yale, I have had the chance to work with the [Yale International Relations Organization](https://www.yira.org) as the Secretary on its Board of Directors and organizing team member in its various constituent conferences. I danced with [Yale Movement](https://www.youtube.com/c/YaleMovement), served as an Ambassador for the [First-Generation Low-Income Community Initiative](https://fgli.yalecollege.yale.edu/), and mentored in multifarious courses across Mathematics, Economics, Engineering, and Vietnamese departments at the [Poorvu Center for Teaching and Learning](https://poorvucenter.yale.edu/course-based-peer-tutors).
 
-At some point in the future I will pursue doctoral studies in Materials Science, Chemical Engineering, or Chemistry.
+At some point in the future I will pursue doctoral studies in Materials Science, Chemical Engineering, or Chemistry. For resume or CV requests, please email me.
 
 ## Research
 
