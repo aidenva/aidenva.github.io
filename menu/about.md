@@ -4,7 +4,7 @@ title: About Me
 permalink: /about
 ---
 
-My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I just graduated from Yale University at the end of May 2022.
+My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I currently work as a Chemical Engineer at an energy startup!
 
 ## Education
 
