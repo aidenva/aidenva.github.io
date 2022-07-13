@@ -57,6 +57,8 @@
 
 .header-subtitle {
   color: $light-gray-color;
+  font-weight: 400;
+  font-style: italic;
 }
 
 /*
@@ -76,6 +78,7 @@
   color: #00356b;
   font-size: 1.25rem;
   padding-right: 10px;
+  font-weight: 400;
 }
 
 .menu-content a:hover {
