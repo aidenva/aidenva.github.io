@@ -38,9 +38,9 @@ Channel something good<br>
 <ul class="posts-container">
   {% for post in paginator.posts %}
     <div class="posts-container">
-      <h4>
+      <h3 class = "homeh3">
         <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-      </h4>
+      </h3>
       {% if post.image %}
         <div class="thumbnail-container">
           <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
