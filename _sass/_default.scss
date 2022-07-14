@@ -33,7 +33,7 @@
 
 .header a:hover {
   color:black;
-  animation: dropshadow 8s ease-in-out infinite;
+  animation: dropshadow 15s ease-in-out infinite;
   background-clip: text;
   -webkit-background-clip: text;
   transition: color .8s ease-in-out;
@@ -41,13 +41,13 @@
 
 @keyframes dropshadow {
   0%{text-shadow: none}
-  10%{text-shadow: 3px 3px $extra-light-gray-color}
+  10%{text-shadow: 5px 5px $extra-light-gray-color}
   25%{text-shadow: none}
-  35%{text-shadow: -3px 3px $extra-light-gray-color}
+  35%{text-shadow: -5px 5px $extra-light-gray-color}
   50%{text-shadow: none}
-  60%{text-shadow: -3px -3px $extra-light-gray-color}
+  60%{text-shadow: -5px -5px $extra-light-gray-color}
   75%{text-shadow: none}
-  85%{text-shadow: 3px -3px $extra-light-gray-color}
+  85%{text-shadow: 5px -5px $extra-light-gray-color}
   100%{text-shadow: none}
 }
 
