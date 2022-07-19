@@ -16,10 +16,14 @@ body {
   }
   body h1 {
     font-size: 1.5rem;
-    letter-spacing: -0.05rem;
+    letter-spacing: -0.1rem;
   }
   body h2 {
     font-size: 1.25rem;
+  }
+  .last-fm-box {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -87,7 +91,6 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 img {
