@@ -16,7 +16,7 @@ Some of the most transformative courses I had at Yale, with somewhat an order of
 
 At Yale, I had the chance to work with the [Yale International Relations Organization](https://www.yira.org) as the Secretary on its Board of Directors and organizing team member in its various constituent conferences. I danced with [Yale Movement](https://www.youtube.com/c/YaleMovement), served as an Ambassador for the [First-Generation Low-Income Community Initiative](https://fgli.yalecollege.yale.edu/), and mentored in multifarious courses across Mathematics, Economics, Engineering, and Vietnamese departments at the [Poorvu Center for Teaching and Learning](https://poorvucenter.yale.edu/course-based-peer-tutors).
 
-At some point in the future I will pursue doctoral studies in Materials Science, Chemical Engineering, or Chemistry. For resume or CV requests, please contact me.
+At some point in the future I will pursue doctoral studies in Materials Science. For resume or CV requests, please find my contacts below.
 
 ## Research
 
