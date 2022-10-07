@@ -13,7 +13,7 @@ tags: [documentation,random,yale]
 
 (II)
 
-As a college student, I am permitted a liminal space of having not determined yet what is instrumental to me. Here, I extend the semantic domain of the word 'instrument' to cover not just the device, but the way I use the device, and the relative value I assign to the bundle of devices in each subspace of my interests. But as a graduating college student, the pressure to figure it out is encroaching with a precarious speed. When I look at people who have proverbially figured it out, the amount of advice I hope to actually personally emulate is severely limited. I want to contain multitudes, but it could be strictly preferrable to simplify my utility function, then tune my parameters once my constraints are relaxed.
+As a college student, I am permitted a liminal space of having not determined yet what is instrumental to me. Here, I extend the semantic domain of the word 'instrument' to cover not just the device, but the way I use the device, and the relative value I assign to the bundle of devices in each subspace of my interests. But as a graduating college student, the pressure to figure it out is encroaching with a precarious speed. When I look at people who have apparently figured it out, the amount of advice I hope to actually personally emulate is severely limited. I want to contain multitudes, but it could be strictly preferrable to simplify my utility function, then tune my parameters once my constraints are relaxed.
 
 (III)
 
