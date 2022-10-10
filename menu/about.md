@@ -28,9 +28,7 @@ I was involved with the [National Alliance for Water Innovation](https://www.naw
 
 ### [Zhong Group at Yale](https://zhongpolylab.yale.edu/)
 
-I conducted research on tacticity control in polymer synthesis using Lewis acids under the supervision of Professor Mingjiang Zhong at the Department of Chemical and Environmental Engineering at Yale.
-
-I was involved with research on (1) multi-component graft block copolymer as basis for synthesis of polymer compatibilizer and (2) poly-TEMPO applications in energy storage devices.
+I conducted research on (1) tacticity control in polymer synthesis using Lewis acids and (2) multi-component graft block copolymer as basis for synthesis of polymer compatibilizer under the supervision of Professor Mingjiang Zhong at the Department of Chemical and Environmental Engineering at Yale.
 
 ### [World Health Organization SDG3 Global Action Plan](https://www.who.int/initiatives/sdg3-global-action-plan)
 
