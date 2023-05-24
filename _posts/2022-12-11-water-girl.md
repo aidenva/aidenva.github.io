@@ -3,7 +3,7 @@ layout: post
 title: "Water, Girl"
 author: "Linh Le"
 categories: journal
-tags: [documentation,random,cruz]
+tags: [documentation,random,cruz,vietnam]
 
 ---
 Santa Cruz has been raining a lot. And when I say a lot, I do not mean the good kind; it is a ceaseless state of precipitation that leaves every ground surface a trip-and-fall hazard. I feel like I should be at the level of gratitude for rain of [Drew Barrymore](https://www.youtube.com/shorts/lcE717XL8qE) 'whenever you can go out into the rain, do not miss the opportunity', given just how the dryness of the local climate renders the community in constant fear of a forest fire. Instead, rain fills me with dread as I move my schedule around to avoid, to the best of my will, being stranded outside in the outpouring trying to pedal my bike home.

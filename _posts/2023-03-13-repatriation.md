@@ -3,7 +3,7 @@ layout: post
 title: "Repatriation"
 author: "Linh Le"
 categories: journal
-tags: [documentation,random]
+tags: [documentation,random,vietnam]
 
 ---
 I arrived back in the U.S. at the end of January, after three weeks spent reconnecting with the homeland that I have not seen for three and a half years. It is hard to say if I ever settled back into the modalities of living that are redolent of my childhood: my bedroom emptied out to the unmoveable necessities, my friends dispersed all over the world, my daily concerns much more forgiving of a post-graduate adult on paid time off. In fact, I would have felt less incongruous with my perceptions of home had my family been entirely separated from me, and I from their lives. But I have grown into the banality of regularizing my daily updates through video calls, replacing afterschool rambles astride my parents' motorbikes with virtual interfaces that are never stably connected on both sides. My parents have accepted a physical distance from me that does not subtract from our familial connection. I have not.
