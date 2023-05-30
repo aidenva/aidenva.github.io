@@ -11,3 +11,5 @@ I am nearing my sixth month of working out consistently (i.e., with a detailed p
 Some of my friends are really surprised and supportive of these updates. I was never particularly known for my physique; some might even question the fact that I could have functioned properly in college with my previous quotidian indulgences. The biggest element of surprise in these conversations is the fact that my lifestyle improvements are all according to plan. The life I imagined graduating into was of mental stability and devotion to health, and so far nothing has obstructed my progress.
 
 I became very interested in microeconomic theories and their principal conclusions in my senior year.
+
+Bryan Johnson
