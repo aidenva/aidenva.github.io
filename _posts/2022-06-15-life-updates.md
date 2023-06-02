@@ -4,8 +4,8 @@ title: "Some Life Updates"
 author: "Linh Le"
 categories: journal
 tags: [documentation]
----
 
+---
 I have been on the move constantly for the past few days, and have only got some time to unwind with an intent to write tonight. A lot has changed in my life:
 
 1. I moved away from New Haven! As I finished parts of my research, I felt a relieving sense of tranquility leaving what I would consider my home for all my presence in the United States. It was especially nice to talk with my professors and PhD friends at lengths in these last days, for whom I am still pretty much a student under their tutelage.

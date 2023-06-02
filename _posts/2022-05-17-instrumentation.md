@@ -6,7 +6,6 @@ categories: journal
 tags: [documentation,random,yale]
 
 ---
-
 (I)
 
 <em>Happiness is a Butterfly</em> by Lana Del Rey can be broken down into roughly two equivalently structured sections. Though not akin to pop, there is a repeated section that can be considered its 'chorus', in which the midpoint resolution for the first instance lacks the synth or electric guitar riff of the second one. This complements the song's commentary on happiness being a butterfly that Lana tries to reach, yet can never fully capture it. The first time we hear of the lyrics, without the riffs, feels more somber; the second has the effect of a withering fire that once <em>was</em> but no longer <em>is</em>.
