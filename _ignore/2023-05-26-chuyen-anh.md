@@ -3,7 +3,7 @@ layout: post
 title: "Chuyên Anh"
 author: "Linh Le"
 categories: journal
-tags: [documentation,vietnam]
+tags: [documentation,vietnam,ams]
 
 ---
 My high school education is a topic that I am so far away from fully forgetting. It is a lifestyle, a generational affliction, that has suffused the condition of the modern Vietnamese youngster already so obsessed with academic prestige. I tell people that I am very grateful that vestiges of high school life were completely removed from my college experience, because if there were any semblance of Hanoi-Amsterdam at Yale I would have recoiled into a soullessly self-sabotaging persona that forced me to select what memories to preserve. The reality is that I could barely escape the scope of Hanoi-Amsterdam alumni network. Most Vietnamese Yalies were from my high school. Most of non-Yale people I know in New York or the Bay Area are from my high school. Every time I catch up with old friends is like binging a season of the Real Housewives franchise for students from Hanoi-Amsterdam. There is a thread of connection that invariably bound us together, much as I sought to sidestep it.

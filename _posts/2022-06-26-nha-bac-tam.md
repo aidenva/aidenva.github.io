@@ -3,7 +3,7 @@ layout: post
 title: "Nhà Bác Tam"
 author: "Linh Le"
 categories: journal
-tags: [documentation,random]
+tags: [documentation,random,vietnam]
 
 ---
 My parents moved to Hanoi at most a decade before I was born, but both have racked up a boastful list of people that they knew one way or another. During Tết (Lunar New Year), when our family would back to Hanoi from our grandparents' provinces, we would always do a tour around acquaintances that we would otherwise never meet up with. One of these people is bác Tam, whose abode lies next to two other residences (that my family also somehow knows). Our families kept close contact. Bác Tam stayed on top of my family's life updates, with my first impression being when he asked me about our newly rebuilt house when I was five. At some point during elementary school, during one of these visits, he discussed with my dad how he reconstructed the house to raise the ceiling of the first floor, and I have never completely had an answer for how that is accomplished without demolishing the structure.
