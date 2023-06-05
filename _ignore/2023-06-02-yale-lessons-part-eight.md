@@ -19,8 +19,9 @@ tags: [documentation,yale]
 
 <h3>American Institute of Chemical Engineers</h3>
 
-<h3>Eye and Tooth</h3>
+<h3>YMUN 47: Ad Hoc</h3>
 
 <h3>Payne Whitney Gym</h3>
 
 <h3>Ending Notes</h3>
+- Eye and Tooth
