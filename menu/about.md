@@ -36,4 +36,4 @@ My capstone project in the Global Affairs major allowed me, along with six other
 
 ## Contact
 
-Feel free to contact me through email at linh &lt; dot &gt; le &lt; at &gt; yale &lt; dot &gt; edu, or at my [Twitter](http://twitter.com/Manh_Linh_Le). I am free to chat most of the times.
+Feel free to contact me through email at manhlinhle &lt; dot &gt; 00 &lt; at &gt; gmail &lt; dot &gt; com, or at my [Twitter](http://twitter.com/Manh_Linh_Le). I am free to chat most of the times.
