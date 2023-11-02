@@ -12,7 +12,7 @@ I am residing in Santa Cruz, CA. I will be back in Hanoi, Vietnam in late Decemb
 <hr>
 <h2>What am I reading?</h2>
 
-An amalgam of texts I am currently interested in includes:<br>
+Alas, I have become really impatient with reading long-form novels. An amalgam of texts I am currently interested in includes:<br>
 1. All the articles within this <a href="https://astra-mag.com/articles/blunt-force-ethnic-credibility/">criticism of diasporic literature</a> that has taken Vietnamese community by storm;<br>
 2. The lecture notes from <a href="https://math.mit.edu/~shor/435-LN/">this MIT course</a> on quantum mechanics;<br>
 3. The idea of <a href="https://www.diva-portal.org/smash/get/diva2:1716622/FULLTEXT01.pdf">uncomfortable knowledges</a> in anthropology;<br>
@@ -20,4 +20,33 @@ An amalgam of texts I am currently interested in includes:<br>
 5. More of <a href="https://that-which.com/explaining-foucaults-archeology/?fbclid=IwAR2RcgVo6paKBB_CcnynFY1D4oA6yOGZUIYnl96wCZ0icCaVzWWsHfP3i2I">Foucault</a>, this time on the idea of archeology of knowledge;<br>
 6. This <a href="https://www.theparisreview.org/interviews/6203/the-art-of-fiction-no-218-deborah-eisenberg">interview</a> about the art of fiction.<br>
 
-Hopefully next week I will give a full list of long-form writings I have been engaged in.<br>
+<hr>
+<h2>Lyrics of the Week</h2>
+Dive bar on the East Side, where you at?<br>
+Phone lights up my nightstand in the black<br>
+Come hereh<br>
+You can meet me in the backb<br>
+<h5>Delicate <b><em>(Taylor Swift)</em></b></h5>
+<hr>
+<h2>Writing</h2>
+<ul class="posts-container">
+  {% for post in paginator.posts %}
+    <div class="posts-container">
+      <h3 class = "homeh3">
+        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+      </h3>
+      {% if post.image %}
+        <div class="thumbnail-container">
+          <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+        </div>
+      {% endif %}
+      <p>
+        {{ post.content | strip_html | truncate: 250 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
+        <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+      </p>
+    </div>
+  {% endfor %}
+  <!-- Pagination links -->
+  </ul>
+
+  or check out an <a href="https://lemanhlinh.com/writing.html">Archive</a> of all my writing. 
