@@ -4,7 +4,7 @@ title: About Me
 permalink: /about
 ---
 
-My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I currently work as a Chemical Engineer at [Prometheus Fuels](https://www.prometheusfuels.com), the first unicorn start-up company in the electrofuels industry!
+My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I am currently a first-year (G1) Ph.D. student in the Department of Applied Physics at the [Harvard John A. Paulson School of Engineering and Applied Sciences](https://seas.harvard.edu/).
 
 ## Education
 
@@ -15,8 +15,6 @@ In 2018, I received admissions from [Yale University](https://yale.edu), and spe
 Some of the most transformative courses I had at Yale, with somewhat a descending order of impact, include [Water Quality Control](https://courses.yale.edu/?details&srcdb=201903&crn=10995), [First-Year Organic Chemistry](https://courses.yale.edu/?details&srcdb=201803&crn=10629), [Approaches to International Development](https://courses.yale.edu/?details&srcdb=202001&crn=27688), [Transport Phenomena II](https://courses.yale.edu/?details&srcdb=202101&crn=21832), [Foucault and the Sexual Self](https://courses.yale.edu/?details&srcdb=202201&crn=23790), and [Neural Networks and Learning Systems](https://courses.yale.edu/?details&srcdb=202103&crn=11124).
 
 At Yale, I had the chance to work with the [Yale International Relations Organization](https://www.yira.org) as the Secretary on its Board of Directors and organizing team member in its various constituent conferences. I danced with [Yale Movement](https://www.youtube.com/c/YaleMovement), served as an Ambassador for the [First-Generation Low-Income Community Initiative](https://fgli.yalecollege.yale.edu/), and mentored in multifarious courses across Mathematics, Economics, Engineering, and Vietnamese departments at the [Poorvu Center for Teaching and Learning](https://poorvucenter.yale.edu/course-based-peer-tutors).
-
-At some point in the future I will pursue doctoral studies in Materials Science or Chemical Engineering. For resume or CV requests, please find my contacts below.
 
 ## Research
 
@@ -33,6 +31,10 @@ I conducted research on (1) tacticity control in polymer synthesis using Lewis a
 ### [World Health Organization SDG3 Global Action Plan](https://www.who.int/initiatives/sdg3-global-action-plan)
 
 My capstone project in the Global Affairs major allowed me, along with six other graduating seniors, to consult the World Health Organization (WHO) Innovation Hub on its pioneering work within the Sustainable Develop Goal 3 Global Action Plan. Our final report can be found [here](https://cdn.who.int/media/docs/default-source/global-action-plan/scaling-innovations-to-reach-sdg3-capstone-student-team.pdf?fbclid=IwAR3G4yuLqA3XJ31ffrn7JuOaMkOpmmRdOiRqp6jluij2ZBNPnwlf_ysVTfc), featured on their [2022 Annual Report](https://www.who.int/initiatives/sdg3-global-action-plan/progress-reports/2022?fbclid=IwAR3HnGl5e30LTyPyTho6Iv4DavEzT2Vgt8Y5gNroB_DIyPQ28fsyEPHgTeo).
+
+### [Prometheus Fuels](https://prometheusfuels.com/)
+
+I spent two years in scenic Northern California working in both R&D and manufacturing towards building a large-scale electrolyzer system for sustainable e-fuels synthesis.
 
 ## Contact
 
