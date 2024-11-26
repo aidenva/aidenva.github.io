@@ -4,7 +4,7 @@ title: About Me
 permalink: /about
 ---
 
-My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I am currently a first-year (G1) Ph.D. student in the Department of Applied Physics at the [Harvard John A. Paulson School of Engineering and Applied Sciences](https://seas.harvard.edu/).
+My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I am currently a first-year (G1) Ph.D. student in the Department of Applied Physics at the [Harvard John A. Paulson School of Engineering and Applied Sciences](https://seas.harvard.edu/), working with Professor Zachary Schiffer on [nitrogen electrochemistry](https://schifferlab.seas.harvard.edu/research/).
 
 ## Education
 
