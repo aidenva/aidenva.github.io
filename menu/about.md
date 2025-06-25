@@ -8,7 +8,7 @@ My full name is Lê Mạnh Linh, and the order it goes in English should be Linh
 
 ## Education
 
-I spent my K-12 education in Vietnam, mostly at the [Hanoi Amsterdam High School for the Gifted](http://www.hn-ams.edu.vn/en), where I was member of the English 1 (Anh 1) class for my high school. I competed in the National English Academic Competition for two years, organized Ngay Hoi Anh Tai 2015-2016 and Ams Got Talent IX, and was the president of our Model UN team.
+I spent my K-12 education in Vietnam, mostly at the [Hanoi Amsterdam High School for the Gifted](http://www.hn-ams.edu.vn/en), where I was member of the English 1 (Anh 1) class for my high school. I competed in the National English Academic Competition for two years, organized Ngay Hoi Anh Tai 2015-2016, Ams Got Talent IX, and our graduation ceremony Made in 12, and was the president of our Model UN team.
 
 In 2018, I received admissions from [Yale University](https://yale.edu), and spent my most culturally enhancing education so far studying [Chemical Engineering](https://seas.yale.edu/departments/chemical-and-environmental-engineering) and [Global Affairs](https://jackson.yale.edu/academics/the-global-affairs-major/). I was also member of the [Energy Studies Multidisciplinary Academic Program](https://earth.yale.edu/energy-studies).
 
@@ -35,6 +35,10 @@ My capstone project in the Global Affairs major allowed me, along with six other
 ### [Prometheus Fuels](https://prometheusfuels.com/)
 
 I spent two years in scenic Northern California working in both R&D and manufacturing towards building a large-scale electrolyzer system for sustainable e-fuels synthesis.
+
+## Outreach
+
+At the moment, I am focusing my outreach efforts on Harvard's campus. I am involved with [Harvard Advising Programs Office](https://advising.college.harvard.edu/advising-network/) as a Pre-Concentration Advisor, [Harvard SEAS InTouch](https://intouch.seas.harvard.edu/) as a Peer Staffer, and with an up-and-coming program/concentration for Harvard undergraduates. I am a frequent contributor to the [Vietnam Agriculture Newspaper](https://vietnamagriculture.nongnghiep.vn/renewable-energy-transition-for-rural-sustainable-development-d753818.html), and previously did the same to the [Clean Energy Finance Forum](https://cleanenergyforum.yale.edu/). Before starting my Ph.D., I worked in various mentoring capacities for five Vietnamese peer networks, taught at [Yale Splash](https://yale.learningu.org/learn/Splash/2019_Fall/catalog), and worked in miscellaneous energy advocacy groups on Yale's campus.
 
 ## Contact
 
