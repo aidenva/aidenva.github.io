@@ -14,9 +14,9 @@ In 2018, I received admissions from [Yale University](https://yale.edu), and spe
 
 Some of the most transformative courses I had at Yale, with somewhat a descending order of impact, include [Water Quality Control](https://courses.yale.edu/?details&srcdb=201903&crn=10995), [First-Year Organic Chemistry](https://courses.yale.edu/?details&srcdb=201803&crn=10629), [Approaches to International Development](https://courses.yale.edu/?details&srcdb=202001&crn=27688), [Transport Phenomena II](https://courses.yale.edu/?details&srcdb=202101&crn=21832), [Foucault and the Sexual Self](https://courses.yale.edu/?details&srcdb=202201&crn=23790), and [Neural Networks and Learning Systems](https://courses.yale.edu/?details&srcdb=202103&crn=11124).
 
-At Yale, I had the chance to work with the [Yale International Relations Organization](https://www.yira.org) as the Secretary on its Board of Directors and organizing team member in its various constituent conferences. I danced with [Yale Movement](https://www.youtube.com/c/YaleMovement), served as an Ambassador for the [First-Generation Low-Income Community Initiative](https://fgli.yalecollege.yale.edu/), and mentored in multifarious courses across Mathematics, Economics, Engineering, and Vietnamese departments at the [Poorvu Center for Teaching and Learning](https://poorvucenter.yale.edu/course-based-peer-tutors).
+At Yale, I had the chance to work with the [Yale International Relations Association](https://www.yira.org) as the Secretary on its Board of Directors and organizing team member in its various constituent conferences. I danced with [Yale Movement](https://www.youtube.com/c/YaleMovement), served as an Ambassador for the [First-Generation Low-Income Community Initiative](https://fgli.yalecollege.yale.edu/), and mentored in multifarious courses across Mathematics, Economics, Engineering, and Vietnamese departments at the [Poorvu Center for Teaching and Learning](https://poorvucenter.yale.edu/course-based-peer-tutors).
 
-In 2026, I finished my S.M. *en route* in Engineering Sciences after completing the technical components of my coursework at Harvard. I will hopefully finish my qualifying exam later this year and return to the non-technical portion of my coursework later on in my Ph.D., with a focus on Science, Technology, and Society.
+In 2026, I finished my S.M. *en route* in Engineering Sciences after completing the technical components of my coursework at Harvard. This means that I am officially a Ph.D. candidate!
 
 ## Research
 
@@ -44,4 +44,4 @@ At the moment, I am focusing my outreach efforts on Harvard's campus. I am invol
 
 ## Contact
 
-Feel free to contact me through email at manhlinhle &lt; dot &gt; 00 &lt; at &gt; gmail &lt; dot &gt; com. I am free to chat most of the times.
+Feel free to contact me through email at manhlinhle &lt; dot &gt; 00 &lt; at &gt; gmail &lt; dot &gt; com.
