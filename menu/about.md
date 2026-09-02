@@ -4,7 +4,7 @@ title: About Me
 permalink: /about
 ---
 
-My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I am currently a second-year (G2) Ph.D. student in the Department of Applied Physics at the [Harvard John A. Paulson School of Engineering and Applied Sciences](https://seas.harvard.edu/), working with Professor Zachary Schiffer on [nitrogen electrochemistry](https://schifferlab.seas.harvard.edu/research/).
+My full name is Lê Mạnh Linh, and the order it goes in English should be Linh Manh Le. I am currently a third-year (G3) Ph.D. student in the Department of Applied Physics at the [Harvard John A. Paulson School of Engineering and Applied Sciences](https://seas.harvard.edu/), working primarily with Professor Zachary Schiffer on [nitrogen electrochemistry](https://schifferlab.seas.harvard.edu/research/).
 
 ## Education
 
@@ -40,7 +40,7 @@ I spent two years in scenic Northern California working in both R&D and manufact
 
 ## Outreach
 
-At the moment, I am focusing my outreach efforts on Harvard's campus. I am involved with [Harvard Advising Programs Office](https://advising.college.harvard.edu/advising-network/) as a Pre-Concentration Advisor, [Harvard SEAS InTouch](https://intouch.seas.harvard.edu/) as a Peer Staffer, and with an up-and-coming program/concentration for Harvard undergraduates. I am a frequent contributor to the [Vietnam Agriculture Newspaper](https://vietnamagriculture.nongnghiep.vn/renewable-energy-transition-for-rural-sustainable-development-d753818.html), and previously did the same to the [Clean Energy Finance Forum](https://cleanenergyforum.yale.edu/). Before starting my Ph.D., I worked in various mentoring capacities for five Vietnamese peer networks, taught at [Yale Splash](https://yale.learningu.org/learn/Splash/2019_Fall/catalog), and worked in miscellaneous energy advocacy groups on Yale's campus.
+At the moment, I am focusing my outreach efforts on Harvard's campus. I am involved with [Harvard SEAS InTouch](https://intouch.seas.harvard.edu/) as a Peer Staffer and with the newest concentration on [Energy, Climate, and the Environment](https://seas.harvard.edu/energy-climate-environment) as a Course Developer. I am a frequent contributor to the [Vietnam Agriculture Newspaper](https://vietnamagriculture.nongnghiep.vn/renewable-energy-transition-for-rural-sustainable-development-d753818.html), and previously did the same to the [Clean Energy Finance Forum](https://cleanenergyforum.yale.edu/). Before starting my Ph.D., I worked in various mentoring capacities for five Vietnamese peer networks, taught at [Yale Splash](https://yale.learningu.org/learn/Splash/2019_Fall/catalog), and worked in miscellaneous energy advocacy groups on Yale's campus.
 
 ## Contact
 
