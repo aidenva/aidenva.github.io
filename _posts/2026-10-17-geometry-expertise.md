@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Sandbag or Sad Dog"
+title: "The Geometry of Expertise"
 author: "Linh Le"
 categories: journal
 tags: [documentation,random]
+math: true
 
 ---
-A question the machines force on us
 
 I think that, given how shockingly proficient generative models have been at replacing a lot of us, there has been an echoing sentiment about what we should do. <em>Are we harnesses for AI, rather?</em> Some of the more bullish takes revolve around the inability of AI to develop domain expertise--or rather, they call attention to the void that AI leaves behind for humans to fill.
 
@@ -20,7 +20,9 @@ People used to consider "science" a domain, which nowadays sounds absurdly broad
 
 There is a little structure hiding in that, which is that domains nest:
 
+<div class="math-display">
 $$\text{quantum hopping} \;\subset\; \text{inorganic chemistry} \;\subset\; \text{chemistry} \;\subset\; \text{science}$$
+</div>
 
 Collect every candidate domain and order them by inclusion, and you get a partially ordered set. Choosing a "level" of specialization amounts to choosing a partition of knowledge into boxes, and partitions are themselves ordered by refinement--one refines another if each of its boxes sits inside a box of the other--which makes the collection of partitions a lattice. The history of academic departments looks, from here, like a slow walk down that lattice toward finer and finer partitions.
 
@@ -32,17 +34,23 @@ What kind of space, though? Knowledge is many-dimensional, and the things we wan
 
 A person, in this picture, is a competence function on that space,
 
+<div class="math-display">
 $$K : \mathcal{M} \to [0, 1)$$
+</div>
 
-where zero means no competence and one stands for complete, infinite knowledge of a point--a limit nobody actually reaches, hence the open interval.
+where zero means no competence and one stands for complete, infinite knowledge of a point—a limit nobody actually reaches, hence the open interval.
 
 Expertise needs a bar, and the bar is admittedly somewhat arbitrary. Pick a threshold τ, call anything at or above it "good," and your expertise is the set of places where you clear it:
 
+<div class="math-display">
 $$E(\tau) = \{\, x \in \mathcal{M} : K(x) \ge \tau \,\}$$
+</div>
 
 These sets nest, which is a small thing but turns out to matter. Raise the bar and the set can only shrink,
 
+<div class="math-display">
 $$\tau \le \tau' \;\Longrightarrow\; E(\tau') \subseteq E(\tau)$$
+</div>
 
 so a person's expertise isn't really one set at all, but a decreasing family of sets indexed by how strict you are being--a filtration, if you want the word. That gives generalists and specialists a description that is purely about shape: the generalist's sets are large at low bars and vanish early, while the specialist's are small but survive to much higher bars.
 
@@ -60,27 +68,37 @@ I have this weird interest in fluid dynamics, borne out of doing well in a fluid
 
 Written as a fluid person would write it, with u(x, t) the effort you put in, λ a forgetting rate and D a coefficient for how much neighbouring knowledge props each point up:
 
+<div class="math-display">
 $$\frac{\partial K}{\partial t} = D\,\Delta_g K \;-\; \lambda K \;+\; (1 - K)\,u$$
+</div>
 
 The Laplacian is doing the interesting work here, because on any Riemannian manifold it measures how a point compares with its surroundings,
 
+<div class="math-display">
 $$\Delta_g K(x) = \lim_{r \to 0} \frac{2n}{r^2} \left( \frac{1}{|\partial B_g(x,r)|}\int_{\partial B_g(x,r)} K \;-\; K(x) \right)$$
+</div>
 
 so the D term pulls every point toward the average of its neighbourhood, eroding peaks and filling gaps. (It should be read as support rather than conservation; studying chemistry does not drain your physics.) The factor (1 − K) is there so that competence can approach one but never reach it.
 
 The first thing one might try, before any of this, is simply to demand that K be smooth. That doesn't work, and the reason why ends up being the most useful idea in the post. Near a point x₀, consider the dilations
 
+<div class="math-display">
 $$\delta_s(x) = x_0 + s\,(x - x_0), \qquad s > 0$$
+</div>
 
 They form a group, acting on competence functions by squeezing or stretching them about x₀, and smoothness is invariant under that action: if one smooth peak of height h exists, so does every squeezed copy of it, at the same height and as thin as you like. There are even smooth bump functions that are exactly zero outside a tiny ball--islands with literally nothing around them. Continuity, smoothness of any order, even analyticity are all qualitative conditions with no length scale in them, and no condition invariant under dilations can ever impose a minimum width on expertise. Ruling out spikes requires something that breaks the symmetry.
 
 The fluid equation does: D and λ together define a length,
 
+<div class="math-display">
 $$\ell = \sqrt{D/\lambda}$$
+</div>
 
 and rescaling space changes the equation unless ℓ rescales with it. Several things fall out of that one length. Left alone, a peak of width σ spreads on a time scale of order σ²/D, so the narrower it is the faster it erodes; narrowness becomes a maintenance cost. Under sustained, tightly focused effort, competence settles into a profile whose shoulders fall off like e^(−r/ℓ), so focus finer than ℓ doesn't produce narrower expertise at all, only the same shoulders. And in such a profile the slopes are bounded, roughly by h/ℓ, which gives a static shadow of the dynamics:
 
+<div class="math-display">
 $$|K(x) - K(y)| \;\le\; L \, d_g(x, y)$$
+</div>
 
 I don't want to insist that knowledge obeys this particular equation or this particular inequality; the specific forms hardly matter. What matters is the structural property underneath both, that the constraint respects isometries--rearrangements of knowledge that keep neighbours as neighbours--and breaks dilations. Everything after this uses only that.
 
@@ -88,7 +106,9 @@ I don't want to insist that knowledge obeys this particular equation or this par
 
 Suppose you clear the bar at some point x₀ with room to spare, K(x₀) = h > τ. Competence can only fall off at a bounded rate, so it can't drop below τ immediately; it has to stay above the bar on a whole geodesic ball around x₀, and the radius of that ball grows with h − τ:
 
+<div class="math-display">
 $$h > \tau \;\Longrightarrow\; B_g\big(x_0,\, r(h - \tau)\big) \subseteq E(\tau), \qquad r \text{ increasing}$$
+</div>
 
 Someone who barely clears the bar can be an expert at a single point, but someone far above it can't. Running the same argument with a lower bar gives a larger ball on which K is still comfortably above zero, so a deep peak forces two nested regions--an expertise region where you clear the bar, and a support region underneath where you don't, but aren't at zero either. The supporting lower peaks from the fluid picture show up here as a consequence, rather than something that had to be assumed.
 
@@ -96,7 +116,9 @@ How expensive that support region is depends on curvature, which I find one of t
 
 There is also a topological reading. Deep expertise sets have non-empty interior, and that interior has to get bigger the deeper you go, which quietly rules out a whole class of sets: a point, a curve, a thin lower-dimensional slice of 𝓜 all have empty interior, so none of them can be the entire expertise of someone deep. The natural way to measure "thick enough" is the inradius, the radius of the largest geodesic ball a region contains,
 
+<div class="math-display">
 $$\rho_g(D) = \sup\{\, r : B_g(x, r) \subseteq D \text{ for some } x \,\}$$
+</div>
 
 and this is where the question from the poset finally gets an answer. Walk down a chain of refinements--science, chemistry, inorganic chemistry, quantum hopping--and the inradius shrinks, until at some point the boxes are too thin to contain a ball of the radius that depth demands. Everything below that point is a niche. A domain, then, would be a region with ρ_g(D) at least r(h − τ), and a niche one with less; refining past a niche can only produce more niches. Two things follow that I didn't expect. The cutoff depends on depth: at shallow depth almost anything counts as a domain, and the deeper you want to go, the coarser your boxes have to be. And because ρ_g is measured with the learner's own metric, the same region can be a niche for one person and a domain for another. The support length ℓ sets the grain, so to speak; it is the finest resolution at which anyone can usefully specialize.
 
@@ -108,13 +130,17 @@ At the other extreme, a learner with finite time can only hold a bounded region 
 
 Where does the model from the opening fit into all this? As a very rough first pass, treat a general-purpose AI as a flat level of competence c across the whole space--grade X everywhere. The part of your knowledge that is distinctively yours is then wherever you beat it,
 
+<div class="math-display">
 $$\{\, x : K(x) > c \,\}$$
+</div>
 
 which is just one of your own superlevel sets, a member of the same nested family from before. The machine doesn't seem to introduce any new structure at all; it raises the bar. As models improve, c creeps upward, and everyone's distinctive set shrinks along a family of sets they already had.
 
 If you want a single number for how much sticks out, the natural one is the volume of competence above the floor,
 
+<div class="math-display">
 $$V = \int_{\mathcal{M}} \big(K - c\big)_+ \, d\mu_g$$
+</div>
 
 and it behaves in a way I found clarifying. At c = 0, V is just total competence, and any two people with the same total are worth the same whatever their shape; the generalist and the specialist are simply different. As c rises, the generalist's low, wide sets are the first to sink beneath it, while the specialist's tall, narrow ones survive longest. So shape only starts to matter once there is a floor, and it is the arrival of a competent generalist machine that makes it matter at all.
 
@@ -124,23 +150,27 @@ Two caveats, in fairness. A real model isn't flat; it is another competence func
 
 ## What I assumed away
 
-All of the above quietly rests on an assumption I made on purpose and am not at all sure about: that there is no emergence. Pieces of knowledge only interact through nearness, and the space itself never changes. In neural networks that is plainly false--abilities show up that no single parameter encodes, living instead in how the parameters co-vary, so that if you were handed the parameters without their correlations you would miss them entirely. I set that aside to see how much the plain geometry could say on its own, and it ended up being more than I expected, but it is worth being clear about what was held fixed.
+All of the above rests on an assumption I made on purpose and am not at all sure about: that there is no emergence. Pieces of knowledge only interact through nearness, and the space itself never changes. In neural networks that is plainly false—abilities show up that no single parameter encodes, living instead in how the parameters co-vary, so that if you were handed the parameters without their correlations you would miss them entirely. I set that aside to see how much the plain geometry could say on its own, and it ended up being more than I expected, but it is worth being clear about what was held fixed.
 
-Klein's Erlangen program offers a tidy way to say it: classify a geometry by the group of transformations that leave it unchanged. Read that way, the model has three layers. The competence function K, what you know, is preserved by isometries and changed by learning and forgetting. Beneath it sits the metric g, which items are near each other for you, preserved by isometries but not by dilations, which is exactly where the scale ℓ lives. Beneath that sits the topology of 𝓜, which items are adjacent at all and how many independent directions there are, preserved only by homeomorphisms. Everything so far has moved the top layer alone.
+Klein's Erlangen program offers a tidy way to say it: classify a geometry by the group of transformations that leave it unchanged. Read that way, the model has three layers. The competence function K, what you know, is preserved by isometries and changed by learning and forgetting. Beneath it sits the metric g, which items are near each other *for you*, preserved by isometries but not by dilations, which is exactly where the scale ℓ lives. Beneath that sits the topology of 𝓜, which items are adjacent at all and how many independent directions there are, preserved only by homeomorphisms. Everything so far has moved the top layer alone.
 
 Which makes me wonder what moving the middle layer would look like. One candidate is to let the metric contract wherever competence runs deep. Restricting to conformal changes, g = e^(2φ) g₀, the simplest version would be
 
+<div class="math-display">
 $$\frac{\partial \varphi}{\partial t} = -\kappa\, (K - \theta)_+, \qquad \theta \ge \tau$$
+</div>
 
-so that beyond some consolidation threshold θ, the items around a deep peak become cheaper to move between--the way experts chunk what novices see as separate steps. Conformal changes rescale distances but keep angles and topology intact, so nothing emergent sneaks in. What I find interesting is what this does to everyone else's paths. Shortest routes get drawn toward contracted regions, so a deep specialization S starts acting like a hub, and any pair of points whose geodesic passes near it can get closer. Once the contraction has reached φ ≤ −Φ on S, with d the old distance and d′ the new one,
+so that beyond some consolidation threshold θ, the items around a deep peak become cheaper to move between—the way experts chunk what novices see as separate steps. Conformal changes rescale distances but keep angles and topology intact, so nothing emergent sneaks in. What I find interesting is what this does to everyone else's paths. Shortest routes get drawn toward contracted regions, so a deep specialization S starts acting like a hub, and any pair of points whose geodesic passes near it can get closer. Once the contraction has reached φ ≤ −Φ on S, with d the old distance and d′ the new one,
 
+<div class="math-display">
 $$d'(x,y) \;\le\; \min\Big\{\, d(x,y),\;\; d(x,S) + e^{-\Phi}\operatorname{diam}_g(S) + d(S,y) \,\Big\}$$
+</div>
 
-How much of the space benefits then depends on how central S is--on the fraction of all pairs whose geodesics cross it, a continuous cousin of betweenness centrality. In a tree-like, negatively curved field, paths between different branches run through the trunk, so specializing in the trunk would reshape distances almost everywhere, while specializing in a leaf would reshape almost nothing outside its own branch. If capacity is something like this, then whether going deep builds anything general is less a property of depth than of where you happen to dig. (This version can only ever shrink distances, which means specialization never makes anything harder; catastrophic forgetting in neural networks suggests that is too generous, and letting φ rise elsewhere would be the obvious repair.)
+How much of the space benefits then depends on how central S is—on the fraction of all pairs whose geodesics cross it, a continuous cousin of betweenness centrality. In a tree-like, negatively curved field, paths between different branches run through the trunk, so specializing in the trunk would reshape distances almost everywhere, while specializing in a leaf would reshape almost nothing outside its own branch. If capacity is something like this, then whether going deep builds anything general is less a property of depth than of where you happen to dig. (This version can only ever shrink distances, which means specialization never makes anything harder; catastrophic forgetting in neural networks suggests that is too generous, and letting φ rise elsewhere would be the obvious repair.)
 
 Moving the bottom layer is stranger still. Two distant ideas suddenly becoming adjacent, or a new direction of thought appearing that the space didn't have before, is a change of topology, and no smooth reshaping of distances can produce it; it needs the space itself to change. Perhaps that is what emergence would mean here.
 
-I don't know yet whether either of these is right, and I suspect the answer is "sometimes." If specialization only ever moves the field, then the argument about floors and peaks is more or less the whole story, and depth is mostly a way of standing above the machine. If going deep in one place can change the geometry--or even the topology--of everything else, then specialization is something stranger and more interesting than that, a way of changing the space you learn in.
+I don't know yet whether either of these is right, and I suspect the answer is "sometimes." If specialization only ever moves the field, then the argument about floors and peaks is more or less the whole story, and depth is mostly a way of standing above the machine. If going deep in one place can change the geometry—or even the topology—of everything else, then specialization is something stranger and more interesting than that, a way of changing the space you learn in.
 
 ## Self-reflection
 
